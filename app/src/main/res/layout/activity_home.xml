@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <Button
+        android:id="@+id/hdirector"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/hdelete"
+        android:layout_marginTop="58dp"
+        android:text="Add Director" />
+
+    <Button
+        android:id="@+id/hfilm"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/hdirector"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="152dp"
+        android:text="Add Film" />
+
+    <Button
+        android:id="@+id/hdelete"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Delete Film/Director" />
+
+    <Button
+        android:id="@+id/hview"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/hdelete"
+        android:layout_marginBottom="143dp"
+        android:text="View Film List" />
+</RelativeLayout>
